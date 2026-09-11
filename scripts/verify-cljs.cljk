@@ -8,7 +8,7 @@
 ;; numbers exercise the same JVM-64-bit-long-vs-JS-32-bit-int boundary
 ;; `dnp3.objects` documents in its sibling repo `org-dnp3`.
 ;;
-;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs
+;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk
 (ns verify-cljs
   (:require [clojure.test :as t]
             [iec60870.core-test]))
