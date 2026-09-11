@@ -121,7 +121,7 @@ decoding fail somehow.
 
 ```sh
 clojure -M:test                                                        # JVM
-nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs   # ClojureScript
+nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk   # ClojureScript
 ```
 
 IEEE 754 binary32 is checked against values that follow directly from the
